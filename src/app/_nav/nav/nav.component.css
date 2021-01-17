@@ -1,0 +1,36 @@
+     img {
+         height: 20%;
+         width: 20%;
+     }
+     
+     .navbar-nav .nav-item a {
+         color: white;
+         font-style: normal;
+         font-size: larger;
+     }
+     
+     .navbar-nav .nav-item a:hover {
+         color: greenyellow;
+         font-style: normal;
+         font-size: larger;
+         background-color: white;
+     }
+     
+     .navbar {
+         background-color: #33BFFF;
+     }
+     
+     @media (max-width:990px) {
+         img {
+             margin-right: 0rem;
+             float: right;
+             padding: 0%;
+             margin: 0%;
+         }
+         .navbar-brand {
+             float: left
+         }
+         .navbar-brand::after {
+             clear: both;
+         }
+     }

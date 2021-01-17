@@ -1,0 +1,44 @@
+<div class="container mt-5">
+
+    <div class=" ">
+
+        <h2 class="donate-area">Donation Form</h2>
+        <hr>
+        <p class="">Please donate through Secure Paypal use the form blow</p>
+
+
+
+    </div>
+    <div class="pp-canvasarea">
+        <div class="pp-formbox">
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" class="pp-form">
+                <input type="hidden" name="cmd" value="_xclick">
+                <input type="hidden" name="business" value="sudaneseamericancharity@gmail.com">
+                <input type="hidden" name="item_name" value="Paypal Payment">
+                <input type="hidden" name="no_note" value="1">
+                <input type="hidden" name="currency_code" value="USD"> Enter amount:<br>
+
+                <input type="text" name="amount" value="" class="pp-input"><br>
+
+                <input type="hidden" name="on0" value="Payment Details"> Donation notes:<br>
+
+                <textarea name="os0" rows="4" cols="16" class="pp-textarea"></textarea><br>
+
+                <input type="submit" name="PaypalPayment" value="Send Donation" class="pp-button"><br>
+                <input type="hidden" name="return" value="http://sudaneseamericancharity.org/">
+                <input type="hidden" name="cancel_return" value="http://sudaneseamericancharity.org/">
+
+            </form>
+
+        </div>
+        <h6><i class="fab fa-cc-paypal fa-4x"></i>
+            <br>Please Donate Through Secure PayPal
+        </h6>
+
+        <div class="pp-clear-float"></div>
+    </div>
+    <br>
+
+    <!-- END PAYPAL FORM -->
+
+</div>

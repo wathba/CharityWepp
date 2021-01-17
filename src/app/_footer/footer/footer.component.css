@@ -1,0 +1,19 @@
+footer {
+    background-color: grey;
+    opacity: .7;
+    margin-top: 20px;
+}
+
+p,
+h4 {
+    color: white;
+}
+
+h5 {
+    color: goldenrod;
+}
+
+ul li a {
+    color: lightcyan;
+    text-align: left;
+}

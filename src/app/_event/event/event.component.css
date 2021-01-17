@@ -1,0 +1,16 @@
+.event {
+    margin-top: 50%;
+    color: #ff6802;
+    animation: textchange 5s linear 2s infinite alternate;
+}
+
+@keyframes textchange {
+    from {
+        color: red;
+    }
+    to {
+        font-family: monospace;
+        color: #0000ff;
+        font-size: x-large;
+    }
+}

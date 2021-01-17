@@ -1,0 +1,27 @@
+/* .container-fluid {
+    height: 1200px;
+} */
+
+body {
+    background-color: black;
+    height: 1000px;
+}
+
+.far,
+.fas {
+    color: green
+}
+
+
+/* .container-fluid::after {
+    clear: both;
+} */
+
+
+/* .float_right {
+    float: right;
+}
+
+.float_left::after {
+    clear: both;
+} */

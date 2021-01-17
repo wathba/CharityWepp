@@ -1,0 +1,47 @@
+.accordian {
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.accordian hr {
+    border: indigo 1px solid;
+    width: 50%;
+    float: left;
+}
+
+.accordian h4 {
+    color: royalblue;
+    font-family: monospace;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.accordian h5 {
+    color: red;
+    font-family: monospace;
+    font-size: xx-large;
+    font-weight: bolder;
+    clear: both;
+}
+
+h4 .icon {
+    color: green;
+    padding-left: 10px;
+}
+
+accordion-group p {
+    font-family: monospace;
+    border: palevioletred 2px solid;
+}
+
+.btn {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: x-large;
+    background-color: lawngreen;
+}
+
+accordion-group .mystyles:hover {
+    color: yellowgreen;
+}

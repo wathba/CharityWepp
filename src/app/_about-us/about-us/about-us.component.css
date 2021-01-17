@@ -1,0 +1,44 @@
+.section-title {
+    padding-left: 40%;
+    padding-right: 10%;
+}
+
+.section-title P {
+    font-family: sans-serif;
+    letter-spacing: 1.8px;
+    color: darkblue;
+}
+
+.section-title h2 {
+    font-family: sans-serif;
+    color: midnightblue;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3 {
+    font-family: sans-serif;
+    color: midnightblue;
+    margin-left: 40px;
+    text-decoration: underline;
+}
+
+.container h2 {
+    font-family: sans-serif;
+    color: midnightblue;
+    text-decoration: underline;
+}
+
+ul li,
+p {
+    line-height: 30px;
+    list-style: circle;
+    font-family: sans-serif;
+    color: midnightblue;
+}
+
+hr {
+    border: purple 1px solid;
+    width: 30%;
+}

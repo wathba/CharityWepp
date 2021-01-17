@@ -1,0 +1,26 @@
+ .icon {
+     margin-left: auto;
+     margin-right: auto;
+     color: lightsteelblue
+ }
+ 
+ .card-title h5 {
+     font-family: monospace;
+     font-size: large
+ }
+ 
+ .container h2 {
+     font-family: cursive;
+     color: maroon;
+ }
+ 
+ .container h3 {
+     font-family: cursive;
+     color: maroon;
+ }
+ 
+ hr {
+     width: 10%;
+     border: red solid;
+     height: .2px;
+ }
